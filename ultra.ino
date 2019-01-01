@@ -1,4 +1,5 @@
 
+// header files
 #include <NewPing.h>
 #include<Servo.h>
 #define TRIGGER_PIN  12  
@@ -7,6 +8,7 @@
 Servo servo_1;
 NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); 
 
+// variable declaration
 long duration;
 int distance;
 const int buzzer = 5;
@@ -14,6 +16,7 @@ const int LM_35 = A0;
 int input_val = 0;
 float temp = 0;
 
+// function declaration - setting for initial setup
 void setup() 
 {
   pinMode(buzzer,OUTPUT);
@@ -24,6 +27,8 @@ void setup()
   Serial.begin(9600); 
   Serial.println("Temperature ,Distance ");
 }
+
+// function declaration - setting for again conditions
 void loop() 
 {
   input_val = analogRead(LM_35);
