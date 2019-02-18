@@ -4,7 +4,6 @@
 <ul>
   <li>HM-10 BLE Bluetooth 4.0 CC2541 Wireless Module</li>
   <li>HC SR04 Ultrasonic Range Finder</li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>LM35D Analog Temprature Sensor Module Cable</li>
+  <li>FLAT 1027 Vibration Motor</li>
 </ul>
